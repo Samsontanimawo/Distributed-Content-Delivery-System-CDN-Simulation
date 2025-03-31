@@ -1,0 +1,41 @@
+version: '3'
+services:
+  node1:
+    image: nginx
+    container_name: cdn-node1
+    ports:
+      - "8081:80"
+    networks:
+      - cdn-network
+  node2:
+    image: nginx
+    container_name: cdn-node2
+    ports:
+      - "8082:80"
+    networks:
+      - cdn-network
+  node3:
+    image: nginx
+    container_name: cdn-node3
+    ports:
+      - "8083:80"
+    networks:
+      - cdn-network
+  node4:
+    image: nginx
+    container_name: cdn-node4
+    ports:
+      - "8084:80"
+    networks:
+      - cdn-network
+  node5:
+    image: nginx
+    container_name: cdn-node5
+    ports:
+      - "8085:80"
+    networks:
+      - cdn-network
+
+networks:
+  cdn-network:
+    external: true

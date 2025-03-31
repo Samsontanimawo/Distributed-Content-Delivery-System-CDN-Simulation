@@ -1,0 +1,23 @@
+{
+  "name": "distributed-content-delivery-system-cdn-simulation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samsontanimawo/Distributed-Content-Delivery-System-CDN-Simulation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Samsontanimawo/Distributed-Content-Delivery-System-CDN-Simulation/issues"
+  },
+  "homepage": "https://github.com/Samsontanimawo/Distributed-Content-Delivery-System-CDN-Simulation#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
